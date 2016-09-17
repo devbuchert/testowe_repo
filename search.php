@@ -1,4 +1,7 @@
 <?php
+
+//komentarz do skryptu
+
 $postdata= $_POST['s'];
 if (isset($postdata) && $postdata != "") {
     $BASE_URL      = "http://query.yahooapis.com/v1/public/yql";
